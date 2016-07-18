@@ -7,7 +7,7 @@
 
 .login-box{
     width: 400px;
-    margin: 4% auto;
+    margin: 6% auto;
     box-sizing: border-box;
 }
 
@@ -18,8 +18,9 @@
     font-weight: 300;
 }
 
-.login-logo a{
-    color: #000;
+.login-logo a:hover {
+    color: #3c3c3c;
+    text-decoration: none;
 }
 
 .login-box-body {
@@ -68,7 +69,7 @@
 /******** Fin de Registro y login *****/
 
 .content{
-    background-color: #f1f1f1;
+
     margin: 0px;
     padding: 0px;
 }
@@ -94,7 +95,7 @@
     transition: transform .3s ease-in-out,width .3s ease-in-out;
 }
 
-.sidebar-menu{
+.sidebar-nav{
     height: 790px;
     list-style: none;
     margin: 0;
@@ -148,20 +149,21 @@
 }
 
 #footer{
-    background-color: #1fa67a;
-    border-top: 1px solid #1b926c;
+    background-color: #1B6D85;
     color: #a5d8c7;
     text-shadow: 0 1px 0 rgba(0,0,0,0.15);
     padding: 30px;
 }
 
-.footer-login{
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
-    background-color: rgba(255,255,255, 0.4);
-    color: #000;
+.footer_login{
+    background-color: rgba(27, 109, 133, 0.3);
+    border-top: 1px solid #1B6D85;
     text-shadow: 0 1px 0 rgba(0,0,0,0.15);
-    padding: 10px 0px 10px 0px;
+    padding: 15px;
+    background-position: inherit;
+}
+
+.footer_login i:hover{
+    color: #f1f1f1;
 }
 
