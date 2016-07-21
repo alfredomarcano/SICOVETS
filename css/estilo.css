@@ -3,6 +3,21 @@
     background-size: 100%;
 }
 
+@media screen and (min-device-width: 360px){
+
+    #back-imagen {
+        background-image:  url("../imagen/taller.jpg");
+        background-size: 100%;
+    }
+
+
+}
+.header_h{
+    background-color: rgba(27,109,133, 0.3);
+    border-radius:10px 10px 0px 0px;
+    padding: 1% 2%;
+}
+
 /******* Incio de login y registro *******/
 
 .login-box{
@@ -42,6 +57,7 @@
 
 /*.register-login-box-msg*/
 
+
 .btn-facebook {
     color: #fff;
     background-color: rgba(47,67,122,0.7);
@@ -68,40 +84,27 @@
 
 /******** Fin de Registro y login *****/
 
-.content{
-
-    margin: 0px;
-    padding: 0px;
+.jumbotron-alf{
+    background-color: rgba(0,0,0,0.1);
+    padding: 1% 1% 1% 1%;
+    margin-bottom: 2%;
 }
 
-.content-siderbar{
-    background-color: #fff;
-    margin-right: -5px;
-    padding: 3px;
+.container-alf{
+    padding-right:15px;
+    padding-left:0px;
+    margin-right:auto;
+    margin-left:auto;
 }
 
-
-.main-sidebar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-top: 50px;
-    min-height: 100%;
-    width: 230px;
-    z-index: 810;
-    -webkit-transition: -webkit-transform .3s ease-in-out,width .3s ease-in-out;
-    -moz-transition: -moz-transform .3s ease-in-out,width .3s ease-in-out;
-    -o-transition: -o-transform .3s ease-in-out,width .3s ease-in-out;
-    transition: transform .3s ease-in-out,width .3s ease-in-out;
+.panel-login {
+    border-color: darkorange;
 }
 
-.sidebar-nav{
-    height: 790px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
-    overflow: hidden;
+.panel-login > .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
 }
 
 .panel-green {
@@ -148,22 +151,14 @@
     border-radius: 4px;
 }
 
-#footer{
-    background-color: #1B6D85;
-    color: #a5d8c7;
-    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
-    padding: 30px;
-}
-
 .footer_login{
-    background-color: rgba(27, 109, 133, 0.3);
-    border-top: 1px solid #1B6D85;
-    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
-    padding: 15px;
+    background-color: #f1f1f1;
+    padding: 1%;
     background-position: inherit;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.85);
 }
 
 .footer_login i:hover{
-    color: #f1f1f1;
+    color: rgba(42, 100, 150, 0.7);
 }
 

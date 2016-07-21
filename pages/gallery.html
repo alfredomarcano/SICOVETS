@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="Es-es">
+<head>
+    <title>Sistema de Control de Vehículo para Talleres y Seguros</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../font-awesome-4.6.3/css/font-awesome.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-btn navbar-static-top">
+    <div class="container-alf">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Sicovets</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav center">
+                <li>
+                    <a href="main.php"><i class="fa fa-home"></i><span aria-hidden="true" class="hightop-home"></span> Inicio</a>
+                </li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" href="#">
+                        <span aria-hidden="true" class="hightop-forms"></span>Reportes<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="form-components.html">Recepción de Vehiculo</a>
+                        </li>
+                        <li>
+                            <a href="form-advanced.html">Reporte de Aseguradora</a>
+                        </li>
+                        <li>
+                            <a href="xeditable.html">Estados de Cuenta</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" href="#">
+                        <i class="fa fa-table"></i>
+                        <span aria-hidden="true" class="hightop-tables"></span> Registros<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="tables.html">Basic tables</a>
+                        </li>
+                        <li>
+                            <a href="datatables.html">DataTables</a>
+                        </li>
+                        <li>
+                            <a href="datatables-editable.html">Editable DataTables</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="charts.html">
+                        <span aria-hidden="true" class="hightop-charts"></span>Charts</a>
+                </li>
+                <li class="dropdown"><a data-toggle="dropdown" href="#">
+                    <span aria-hidden="true" class="hightop-pages"></span>Pages<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="chat.html">Chat</a>
+                        </li>
+                        <li>
+                            <a href="calendar.html">Calendar</a>
+                        </li>
+                        <li>
+                            <a href="timeline.html">Timeline</a>
+                        </li>
+                        <li>
+                            <a href="login1.html">Login 1</a>
+                        </li>
+                        <li>
+                            <a href="login2.html">Login 2</a>
+                        </li>
+                        <li>
+                            <a href="messages.html">Messages/Inbox</a>
+                        </li>
+                        <li>
+                            <a href="pricing.html">Pricing Tables</a>
+                        </li>
+                        <li>
+                            <a href="signup1.html">Sign Up 1</a>
+                        </li>
+                        <li>
+                            <a href="signup2.html">Sign Up 2</a>
+                        </li>
+                        <li>
+                            <a href="invoice.html">Invoice</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="filters.html">Filter Results</a>
+                        </li>
+                        <li>
+                            <a href="404-page.html">404 Page</a>
+                        </li>
+                        <li>
+                            <a href="500-page.html">500 Error</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gallery.html"><i class="fa fa-image"></i>
+                        <span aria-hidden="true" class="hightop-gallery"></span> Galeria</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="../index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<div class="container-fluid">
+    <ol class="breadcrumb list-inline">
+        <li><i class="fa fa-home"></i> <a href="main.php"> Inicio</a></li>
+        <li class="active"><i class="fa fa-image"></i> <a href="main.php"> Galeria</a></li>
+    </ol>
+</div>
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="header_h">Vehiculos Recibidos</h1>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+        <div class="col-xs-3 thumb">
+            <a class="thumbnail" href="#">
+                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+<footer class="footer_login" >
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-offset-2 col-sm-1 text-center"><i class="fa fa-twitter fa-3x"></i></div>
+            <div class="col-sm-1 text-center"><i class="fa fa-facebook fa-3x"></i></div>
+            <div class="col-sm-1 text-center"><i class="fa fa-instagram fa-3x"></i></div>
+            <div class="col-sm-1 text-center"><i class="fa fa-youtube-square fa-3x"></i></div>
+            <div class="col-sm-1 text-center"><i class="fa fa-skype fa-3x"></i></div>
+            <div class="col-sm-1 text-center"><i class="fa fa-snapchat fa-3x"></i></div>
+            <div class="col-sm-1 text-center"><i class="fa fa-linkedin fa-3x"></i></div>
+            <div class="col-sm-1 text-center"><i class="fa fa-google fa-3x"></i></div>
+        </div>
+    </div>
+</footer>
+</html>
+
+
+
+
+
+
+
+
+

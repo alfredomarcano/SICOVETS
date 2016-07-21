@@ -7,6 +7,10 @@
  */
 ?>
 <style type="text/css">
+    .container{
+        margin: 0px auto;
+        width: 700px;
+    }
     @import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
     /* Menu CSS */
     #cssmenu,#cssmenu > ul{
@@ -121,6 +125,7 @@
     }
 </style>
 <!-- customize your menus Links -->
+<div class="container">
 <div id="cssmenu">
     <ul>
         <li class="active"><a href="index.html"><span>Home</span></a></li>
@@ -139,4 +144,5 @@
         </li>
         <li class="last"><a href="#"><span>Contact</span></a></li>
     </ul>
+</div>
 </div>

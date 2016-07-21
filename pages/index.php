@@ -48,18 +48,4 @@
     </div>
 </div>
 </body>
-<footer class="footer_login" >
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-offset-2 col-sm-1 text-center"><i class="fa fa-twitter fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-facebook fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-instagram fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-youtube-square fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-skype fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-snapchat fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-linkedin fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-google fa-3x"></i></div>
-        </div>
-    </div>
-</footer>
 </html>
