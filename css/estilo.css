@@ -12,11 +12,20 @@
 
 
 }
-.header_h{
-    background-color: rgba(27,109,133, 0.3);
+.h_recibido{
+    background-color: rgba(92,184,92, 0.5);
     border-radius:10px 10px 0px 0px;
-    padding: 1% 2%;
+    padding: 0.4% 1%;
+    color: #3c3c3c;
 }
+
+.h_entregado{
+    background-color: rgba(42, 100, 150, 0.5);
+    border-radius:10px 10px 0px 0px;
+    padding: 0.4% 1%;
+    color: #3c3c3c;
+}
+
 
 /******* Incio de login y registro *******/
 
