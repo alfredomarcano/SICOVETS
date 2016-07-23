@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilo.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
     <link rel="stylesheet" href="../font-awesome-4.6.3/css/font-awesome.min.css">
     <script src="../js/bootstrap.min.js"></script>
 </head>
@@ -224,67 +224,13 @@
         <hr>
         <div class="container-fluid" style="background-color: rgba(34,34,34,0.1);">
             <div class="container">
-                <div class="col-sm-2">
-                    <div class="panel panel-primary">
-                        <div class="col-sm-3 text-center"><i class="fa fa-twitter fa-3x"></i><br>Twitter</div>
-                    </div>
+                <div class="btn-group-xs text-center">
+                    <button type="button" class="buttons btn-success"><i class="fa fa-car fa-2x"></i><br>Agregar</button>
+                    <button type="button" class="buttons btn-success"><i class="fa fa-car fa-2x"></i><br>Eliminar</button>
+                    <button type="button" class="buttons btn-success"><i class="fa fa-file-text-o fa-2x"></i><br>&nbsp Polizas &nbsp</button>
+                    <button type="button" class="buttons btn-warning"><i class="fa fa-file-image-o fa-2x"></i><br>Imagenes</button>
+                    <button type="button" class="buttons btn-danger"><i class="fa fa-fire fa-2x"></i><br>Eliminar</button>
                 </div>
-                <div class="col-sm-2">
-                    <div class="panel panel-primary">
-                        <div class="col-sm-3 text-center"><i class="fa fa-twitter fa-3x"></i><br>Twitter</div>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="panel panel-primary">
-                        <div class="col-sm-3 text-center"><i class="fa fa-twitter fa-3x"></i><br>Twitter</div>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="panel panel-primary">
-                        <div class="col-sm-3 text-center"><i class="fa fa-twitter fa-3x"></i><br>Twitter</div>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="panel panel-primary">
-                        <div class="col-sm-3 text-center"><i class="fa fa-twitter fa-3x"></i><br>Twitter</div>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="panel panel-primary">
-                        <div class="col-sm-3 text-center"><i class="fa fa-twitter fa-3x"></i><br>Twitter</div>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="panel panel-primary">
-                        <div class="col-sm-3 text-center"><i class="fa fa-twitter fa-3x"></i><br>Twitter</div>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="panel panel-primary">
-                        <div class="col-sm-3 text-center"><i class="fa fa-twitter fa-3x"></i><br>Twitter</div>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="panel panel-primary">
-                        <div class="col-sm-3 text-center"><i class="fa fa-twitter fa-3x"></i><br>Twitter</div>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="panel panel-primary">
-                        <div class="col-sm-3 text-center"><i class="fa fa-twitter fa-3x"></i><br>Twitter</div>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="panel panel-primary">
-                        <div class="col-sm-3 text-center"><i class="fa fa-twitter fa-3x"></i><br>Twitter</div>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="panel panel-primary">
-                        <div class="col-sm-3 text-center"><i class="fa fa-twitter fa-3x"></i><br>Twitter</div>
-                    </div>
-                </div>
-                <hr>
             </div>
         </div>
         <hr>
