@@ -1,41 +1,18 @@
-/*#back-imagen {
-    background-image:  url("../imagen/taller.jpg");
-    background-size: 100%;
-}*/
-
-/*   */
-
-
-
-
-/**/
-@media screen and (max-device-width: 600px){
-
-    .h_recibido, .h_entregado{
-        font-size: 20px;
-        padding: 4%;
-    }
-}
-.h_recibido{
-    background-color: rgba(92,184,92, 0.5);
-    border-radius:10px 10px 0px 0px;
-    padding: 0.4% 1%;
-    color: #3c3c3c;
-    font-size: 30px;
-    margin-bottom: 10px;
+/******* login y registro *******/
+.imagen {
+    background-image:  url("../imagen/taller.jpg") !important;
+    background-size: cover !important;
+    -moz-background-size: cover !important;
+    -webkit-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: inherit !important;
 }
 
-.h_entregado{
-    background-color: rgba(42, 100, 150, 0.5);
-    border-radius:10px 10px 0px 0px;
-    padding: 0.4% 1%;
-    color: #3c3c3c;
-    font-size: 30px;
-    margin: 10px 0px 10px 0px;
+@media screen and (max-width: 600px){
+
 }
-
-
-/******* Incio de login y registro *******/
 
 .login-box{
     width: 400px;
@@ -74,23 +51,76 @@
 
 /*.register-login-box-msg*/
 
+/********** ********************/
+
+
+
+
+/**/
+@media (min-width: 100px){
+
+
+}
+
+
+.h_recibido{
+    background-color: rgba(92,184,92, 0.5);
+    border-radius:10px 10px 0px 0px;
+    padding: 0.4% 1%;
+    color: #3c3c3c;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.h_entregado{
+    background-color: rgba(42, 100, 150, 0.5);
+    border-radius:10px 10px 0px 0px;
+    padding: 0.4% 1%;
+    color: #3c3c3c;
+    font-size: 30px;
+    margin: 10px 0px 10px 0px;
+}
+
 .add:before    { content: "\271A"; }
 
 .buttons
 {
     display: inline-block;
-
-    padding: 2em 2.2em 2em 2.2em;
+    padding: 1.5em 3em 1.5em 3em;
     margin: 0.5em;
     font: bold 1em/2em Arial, Helvetica;
     text-decoration: none;
-    color: #333;
-    border-radius: 10em;
+    color: rgb(235, 235, 235);
+    border-radius: 1em;
     border: none;
 }
 
+.buttons:hover{
+    color: #333;
+    text-decoration: none;
+    background-color: #f1f1f1;
+}
+/** Para crear un efecto de imagen sobre otra
+#cf{
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+}
 
+#cf img{
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
 
+#cf img.top:hover{
+    opacity: 0;
+}
+**/
 .btn-facebook {
     color: #fff;
     background-color: rgba(47,67,122,0.7);
@@ -184,14 +214,27 @@
     border-radius: 4px;
 }
 
-.footer_login{
-    background-color: #f1f1f1;
-    padding: 1%;
-    background-position: inherit;
-    text-shadow: 0 1px 0 rgba(0,0,0,0.85);
+#footer{
+    background-color: #3A3A4F;
+    color:#EEEEEE;
+    line-height: 40px;
+}
+.copy{
+    font-size: 12px;
+    color:#A2A283;
+}
+.redes{
+    text-align: right;
 }
 
-.footer_login i:hover{
-    color: rgba(42, 100, 150, 0.7);
+#footer .redes a{
+    margin-left: 12px;
+    font-size: 30px;
+    color: #f7f7f7;
 }
 
+@media screen and (max-width: 767px) {
+    #footer, .redes{
+        text-align: center;
+    }
+}

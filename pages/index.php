@@ -11,21 +11,45 @@
     <link rel="stylesheet" href="../font-awesome-4.6.3/css/font-awesome.min.css">
     <script src="../js/bootstrap.min.js"></script>
 </head>
-<body id="login">
-<div class="login-c">
-
-    <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <input type="text" class="input-block-level" placeholder="Email address">
-        <input type="password" class="input-block-level" placeholder="Password">
-        <label class="checkbox">
-            <input type="checkbox" value="remember-me"> Remember me
-        </label>
-        <button class="btn btn-large btn-primary" type="submit">Sign in</button>
-    </form>
-
-</div> <!-- /container -->
-<script src="vendors/jquery-1.9.1.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+<body class="imagen">
+<div class="container-fluid">
+    <div class="row">
+        <div class="login-box">
+    <div class="login-logo">
+        <a href="">SICOVETS</a>
+    </div>
+    <div class="login-box-body">
+        <p class="login-box-msg">Inicia Sesion </p>
+        <form action="main.php" method="post">
+            <div class="form-group has-feedback">
+                <input type="email" class="form-control" placeholder="Email">
+                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+                <input type="password" class="form-control" placeholder="Password">
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+            </div>
+            <div class="row">
+                <div class="col-xs-8">
+                    <div class="checkbox icheck">
+                        <label><input type="checkbox"> Recordarme</label>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <button type="submit" class="btn btn-primary btn-block btn-flat">Iniciar</button>
+                </div>
+            </div>
+        </form>
+        <div class="social-auth-links text-center">
+            <br>
+            <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Iniciar usando Facebook</a>
+            <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Iniciar usuando Google+</a>
+        </div>
+        <a href="#">Has olvidado tu clave?</a><br>
+        <a href="register.html" class="text-center">Registrate se un miembro</a>
+    </div>
+</div>
+    </div>
+</div>
 </body>
 </html>

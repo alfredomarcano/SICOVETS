@@ -32,13 +32,20 @@
                         <span aria-hidden="true" class="hightop-forms"></span>Reportes<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="form-components.html">Recepción de Vehiculo</a>
+                            <a href="form-components.html">Ficha del Vehiculos</a>
                         </li>
                         <li>
-                            <a href="form-advanced.html">Reporte de Aseguradora</a>
+                            <a href="form-advanced.html">Ficha de Cliente</a>
                         </li>
                         <li>
-                            <a href="xeditable.html">Estados de Cuenta</a>
+                            <a href="xeditable.html">Ficha Aseguradora</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Ficha Tecnica</a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
                         </li>
                     </ul>
                 </li>
@@ -128,9 +135,22 @@
                 <ol class="breadcrumb list-inline">
                     <li class="active"><i class="fa fa-home"></i> <a href="main.php"> Inicio</a></li>
                 </ol>
-            <hr>
-            <div class="row">
-                <div class="col-sm-offset-1 col-sm-1"></div>
+            <div class="container" >
+                <div class="row">
+                    <div class="btn-group-xs text-center">
+                        <!--<a class="buttons btn-primary" href="#" role="button"><i class="fa fa-car fa-2x"></i><br>Galería</a>-->
+                        <a class="buttons btn-success" href="#" role="button"><i class="fa fa-car fa-2x"></i><br>Agregar</a>
+                        <a class="buttons btn-success" href="#" role="button"><i class="fa fa-car fa-2x"></i><br>Eliminar</a>
+                        <a class="buttons btn-success" href="#" role="button"><i class="fa fa-file-text-o fa-2x"></i><br>&nbsp Polizas &nbsp</a>
+                        <a class="buttons btn-warning" href="../pages/gallery.html" role="button"><i class="fa fa-file-image-o fa-2x"></i><br>Imagenes</a>
+                        <a class="buttons btn-danger" href="#" role="button"><i class="fa fa-fire fa-2x"></i><br>Eliminar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div class="container-fluid">
                 <div class="col-sm-2">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
@@ -152,8 +172,6 @@
                             </div>
                         </a>
                     </div>
-                </div>
-                <div class="col-sm-2">
                     <div class="panel panel-green">
                         <div class="panel-heading">
                             <div class="row">
@@ -174,8 +192,6 @@
                             </div>
                         </a>
                     </div>
-                </div>
-                <div class="col-sm-2">
                     <div class="panel panel-yellow">
                         <div class="panel-heading">
                             <div class="row">
@@ -196,8 +212,6 @@
                             </div>
                         </a>
                     </div>
-                </div>
-                <div class="col-sm-2">
                     <div class="panel panel-red">
                         <div class="panel-heading">
                             <div class="row">
@@ -219,20 +233,89 @@
                         </a>
                     </div>
                 </div>
+                <div class="col-sm-8">
+                    <div class="col-sm-12 bg-warning">
+                        <div class="col-sm-6">
+                            <h4>Network Activities<br>
+                                <small>Graph title sub-title</small>
+                            </h4>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; margin-top:10px; border: 1px solid #ccc">
+                                <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                                <span>June 24, 2016 - July 23, 2016</span> <b class="caret"></b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 bg-danger">
+                        
+                        <div>
+                            <div class="flot-tick-label tickLabel">Jan 02</div>
+                            <div class="flot-tick-label tickLabel">Jan 03</div>
+                            <div class="flot-tick-label tickLabel">Jan 04</div>
+                            <div class="flot-tick-label tickLabel">Jan 05</div>
+                            <div class="flot-tick-label tickLabel">Jan 06</div>
+                            <div class="flot-tick-label tickLabel">Jan 07</div>
+                        </div>
+                        <div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 242px; left: 13px; text-align: right;">0</div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 223px; left: 7px; text-align: right;">10</div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 204px; left: 7px; text-align: right;">20</div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 186px; left: 7px; text-align: right;">30</div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 167px; left: 7px; text-align: right;">40</div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 149px; left: 7px; text-align: right;">50</div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 130px; left: 7px; text-align: right;">60</div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 112px; left: 7px; text-align: right;">70</div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 93px; left: 7px; text-align: right;">80</div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 75px; left: 7px; text-align: right;">90</div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 56px; left: 1px; text-align: right;">100</div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 38px; left: 2px; text-align: right;">110</div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 19px; left: 1px; text-align: right;">120</div>
+                            <div class="flot-tick-label tickLabel" style="position: absolute; top: 1px; left: 1px; text-align: right;">130</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2 bg-warning">
+                        <div class="x_title">
+                            <h2>Leyenda</h2>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div>
+                            <p>Facebook Campaign</p>
+                            <div class="">
+                                <div class="progress progress_sm" style="border: 1px solid #4C4C4C">
+                                    <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="80" aria-valuenow="79" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Twitter Campaign</p>
+                            <div class="">
+                                <div class="progress progress_sm" style="border: 1px solid #4C4C4C">
+                                    <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="60" aria-valuenow="59" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Conventional Media</p>
+                            <div class="">
+                                <div class="progress progress_sm" style="border: 1px solid #4C4C4C">
+                                    <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="40" aria-valuenow="39" style="width: 40%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Bill boards</p>
+                            <div class="">
+                                <div class="progress progress_sm" style="border: 1px solid #4C4C4C">
+                                    <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="50" aria-valuenow="49" style="width: 50%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </section>
-        <hr>
-        <div class="container-fluid" style="background-color: rgba(34,34,34,0.1);">
-            <div class="container">
-                <div class="btn-group-xs text-center">
-                    <button type="button" class="buttons btn-success"><i class="fa fa-car fa-2x"></i><br>Agregar</button>
-                    <button type="button" class="buttons btn-success"><i class="fa fa-car fa-2x"></i><br>Eliminar</button>
-                    <button type="button" class="buttons btn-success"><i class="fa fa-file-text-o fa-2x"></i><br>&nbsp Polizas &nbsp</button>
-                    <button type="button" class="buttons btn-warning"><i class="fa fa-file-image-o fa-2x"></i><br>Imagenes</button>
-                    <button type="button" class="buttons btn-danger"><i class="fa fa-fire fa-2x"></i><br>Eliminar</button>
-                </div>
-            </div>
-        </div>
+
         <hr>
         <div class="container">
             <div class="jumbotron-alf">
@@ -263,20 +346,26 @@
     </div>
 </div>
 </body>
-<footer class="footer_login" >
-    <div class="container-fluid">
+<div id="footer">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-offset-2 col-sm-1 text-center"><i class="fa fa-twitter fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-facebook fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-instagram fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-youtube-square fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-skype fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-snapchat fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-linkedin fa-3x"></i></div>
-            <div class="col-sm-1 text-center"><i class="fa fa-google fa-3x"></i></div>
+            <div class="col-sm-6 col-xs-12">
+                <div id="copy">© 2016 Highcharts. All rights reserved.</div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <div class="redes">
+                <div>
+                    <a href="https://www.facebook.com/Highcharts" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/Highcharts" title="Twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="http://www.linkedin.com/company/highsoft-solutions-as" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/highslide-software/highcharts.com" title="Github"><i class="fa fa-github"></i></a>
+                    <a href="https://www.youtube.com/channel/UCzxXofPTQ0DoT7uIy3Fxw7A"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</footer>
+</div>
 </html>
 
 
