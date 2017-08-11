@@ -1,8 +1,13 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: usuario-PC
- * Date: 17-07-2016
- * Time: 03:30 PM
+ * Conexion a la base de datos
  */
+
+$conex = mysqli_connect ("localhost","root","","sicovets");
+if ($conex =1){
+    echo "conexion exitosa";
+}else {
+   echo "error de conexion con la base de datos";
+}
+  
 ?>
